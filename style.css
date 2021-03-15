@@ -82,9 +82,6 @@ header{
 header .logo img{
 	width:100%;
 }
-header .nav-links{
-
-}
 header li{
 	display: inline-block;
 	margin-left:3rem;
@@ -293,7 +290,7 @@ h2{
 	background:var(--dark-blue-footer);
 	display: flex;
 	align-items: center;
-	padding:0 8rem;
+	padding:4rem 8rem;
 }
 .footer-flex{
 	margin-top: 20rem;
@@ -426,6 +423,14 @@ h2{
 @media screen and (max-width:500px){
 	html{
 		font-size:50%;
+	}
+
+	header .nav-links{
+		width:80%;
+		display: flex;
+	}
+	header li{
+		margin-left:1.5rem;
 	}
 	header .logo img, #footer .logo img{
 		width:40%;
