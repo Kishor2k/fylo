@@ -418,8 +418,15 @@ h2{
 	margin-top: 25rem;
 }
 }
+@media screen and(max-width:768px){
+		html{
+		font-size:50%;
+	}
+	}
 @media screen and (max-width:500px){
-	
+	html{
+		font-size:50%;
+	}
 	header .logo img, #footer .logo img{
 		width:40%;
 	}
@@ -435,10 +442,10 @@ h2{
 	.quote{
 		top:2%;
 	}
+	#hero .main-p{
+	padding: 0rem 1rem;
+	margin-top: 2rem;
+}
 	}
-	@media screen and(max-width:768px){
-		html{
-		font-size:50%;
-	}
-	}
+	
 	
